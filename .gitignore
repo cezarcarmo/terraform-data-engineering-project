@@ -1,0 +1,51 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+.terraform/
+
+# Diretórios e arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Arquivos de configuração do IDE
+.vscode/
+.idea/
+
+# Arquivos de sistema operacional
+*.swp
+*.swo
+*.bak
+
+# Python (se houver scripts Python no projeto)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.venv/
+.env
+
+# Jupyter Notebooks (se houver notebooks no projeto)
+.ipynb_checkpoints/
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Arquivo ZIP do Terraform
+terraform_1.10.5_windows_amd64.zip
+tflint_windows_amd64.zip
