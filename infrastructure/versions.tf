@@ -1,5 +1,7 @@
+# Define a versão mínima do Terraform e os provedores utilizados
 terraform {
   required_version = ">= 1.0.0"
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -8,6 +10,7 @@ terraform {
   }
 }
 
+# Configuração do provedor AWS
 provider "aws" {
   region = var.aws_region
 }
