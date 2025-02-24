@@ -6,6 +6,7 @@ Este repositório demonstra o uso do Terraform para provisionar infraestrutura d
 
 ## 📂 Estrutura do Projeto
 
+```
 terraform-data-engineering-project/
 ├── infrastructure/
 │   ├── main.tf
@@ -31,3 +32,4 @@ terraform-data-engineering-project/
 ├── .gitignore
 ├── LICENSE
 ├── README.md
+```
